@@ -1,3 +1,4 @@
+#include <cstring>
 #include <iostream>
 #include <queue>
 #include <vector>
@@ -24,7 +25,7 @@ void bfs(int x, int y, int m, int n, vector<vector<int> > picture) {
             int nx = first + dx[i];
             int ny = second + dy[i];
 
-            if (nx < 0 || ny < 0 || nx >= m || ny >= n || isVisited[nx][ny] == true || picture[nx][ny] != picture[first][second]) {
+            if (nx < 0 || ny < 0 || nx >= m || ny >= n || isVisited[nx][ny] || picture[nx][ny] != picture[first][second]) {
                 continue;
             }
             q.push(make_pair(nx, ny));
@@ -37,11 +38,8 @@ vector<int> solution(int m, int n, vector<vector<int> > picture) {
     int number_of_area = 0;
     int max_size_of_one_area = 0;
     cnt = 0, sz = 0;
-    for (int i = 0; i < m; i++) {
-        for (int j = 0; j < n; j++) {
-            isVisited[i][j] = false;
-        }
-    }
+
+    memset(isVisited, false, sizeof(isVisited));
 
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
