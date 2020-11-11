@@ -1,0 +1,5 @@
+4 4
+ABCD
+EFAD
+ASDA
+NGHZ

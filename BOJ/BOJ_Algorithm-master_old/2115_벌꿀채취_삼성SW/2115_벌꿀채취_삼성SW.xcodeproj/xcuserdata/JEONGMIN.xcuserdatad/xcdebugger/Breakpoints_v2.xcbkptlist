@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "2115_&#x1107;&#x1165;&#x11af;&#x1101;&#x116e;&#x11af;&#x110e;&#x1162;&#x110e;&#x1171;_&#x1109;&#x1161;&#x11b7;&#x1109;&#x1165;&#x11bc;SW/main.cpp"
+            timestampString = "530070023.14941"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "powerset(int n,int depth, int cost, int x, int y, int start)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
